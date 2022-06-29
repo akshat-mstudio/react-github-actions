@@ -11,10 +11,11 @@ import DrawerItems from './DrawerItems';
 import { Problems } from '../Problems';
 import { fetchSolved } from '../../actions';
 import { useDispatch } from 'react-redux';
+import {Button} from '@aws-amplify/ui-react';
 
 const drawerWidth = 300;
 
-export default function Main() {
+export default function Main({signOut}) {
     const [mobileOpen, setMobileOpen] = useState(false);
     const dispatch = useDispatch();
 
@@ -39,7 +40,7 @@ export default function Main() {
                     ml: { sm: `${drawerWidth}px` },
                 }}
             >
-                <Toolbar>
+                <Toolbar style={{position: 'relative'}}>
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"
@@ -52,6 +53,7 @@ export default function Main() {
                     <Typography variant="h6" noWrap component="div">
                         DSA 375 Questions
                     </Typography>
+                    <Button onClick={signOut} style={{position: 'absolute', right: '10px', background: 'white'}}>Sign Out</Button>
                 </Toolbar>
             </AppBar>
             <Box
