@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/akshat-mstudio/react-github-actions/static/js/main.c988d5b6.js",
-    "static/js/787.14e8cf30.chunk.js": "/akshat-mstudio/react-github-actions/static/js/787.14e8cf30.chunk.js",
-    "index.html": "/akshat-mstudio/react-github-actions/index.html",
-    "main.c988d5b6.js.map": "/akshat-mstudio/react-github-actions/static/js/main.c988d5b6.js.map",
-    "787.14e8cf30.chunk.js.map": "/akshat-mstudio/react-github-actions/static/js/787.14e8cf30.chunk.js.map"
+    "main.js": "/react-github-actions/static/js/main.6bf6273a.js",
+    "static/js/787.14e8cf30.chunk.js": "/react-github-actions/static/js/787.14e8cf30.chunk.js",
+    "index.html": "/react-github-actions/index.html",
+    "main.6bf6273a.js.map": "/react-github-actions/static/js/main.6bf6273a.js.map",
+    "787.14e8cf30.chunk.js.map": "/react-github-actions/static/js/787.14e8cf30.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.c988d5b6.js"
+    "static/js/main.6bf6273a.js"
   ]
 }
