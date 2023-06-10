@@ -1,6 +1,7 @@
 {
   "name": "dsa375",
   "version": "0.1.0",
+  "homepage": "https://github.com/akshat-mstudio/react-github-actions",
   "private": false,
   "dependencies": {
     "react": "^18.2.0",
