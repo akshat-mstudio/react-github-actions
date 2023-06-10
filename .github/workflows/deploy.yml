@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main # Replace with your branch name
+      - main
 
 jobs:
   build:
@@ -27,5 +27,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
-          branch: gh-pages # Replace with your desired deployment branch
+          branch: gh-pages
           folder: build
